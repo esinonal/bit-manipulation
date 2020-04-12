@@ -16,10 +16,6 @@ We could not use big constants such as 0xffffffff.
 
 Function definitions are supposed to conform to this style:
 int Funct(arg1, arg2, ...) {
-      int var1 = Expr1;
-      ...
-      int varM = ExprM;
-
       varJ = ExprJ;
       ...
       varN = ExprN;
