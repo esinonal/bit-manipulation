@@ -14,8 +14,8 @@ or any data type other than int.
 The Integer constants had to be 0 through 255 (0xFF), inclusive.
 We could not use big constants such as 0xffffffff.
 
-Function definitions are supposed to conform to the style where they
-only have 
+Function definitions are supposed to conform to this style, where they
+only contain these assignments in the body:
 
       var1 = Expr1;
       ...
